@@ -82,6 +82,15 @@
               </p>
             </router-link>
           </li>
+          <li class="nav-item ">
+            <router-link to="/developer" class="nav-link">
+              <i class="nav-icon fas fa-setting"></i>
+              <p>
+                Developer
+               
+              </p>
+            </router-link>
+          </li>
           <li class="nav-item has-treeview">
             <router-link to="/management" class="nav-link">
               <i class="nav-icon fas fa-cog green"></i>
@@ -146,7 +155,7 @@
          <!-- route outlet -->
         <!-- component matched by the route will render here -->
         <router-view></router-view>
-
+        <vue-progress-bar></vue-progress-bar>
        </div>
     </div>
     <!-- /.content -->
